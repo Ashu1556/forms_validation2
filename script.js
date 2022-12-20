@@ -71,6 +71,7 @@ form.addEventListener('submit',function(e){
         showSuccess(Phonenumber);
     }
     if(bio.value===''){
+        console.log("as");
         showError(bio,'Bio must conatin only lowercase letters,underscores,hyphens and be 8-50 characters');
     }
     else{
